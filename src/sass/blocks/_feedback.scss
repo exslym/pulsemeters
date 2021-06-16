@@ -1,0 +1,44 @@
+.feedback {
+    min-height: 950px;
+    background-color: #fff;
+    padding: 0 0 70px 0;
+    &__wrapper {
+        display: block;
+        margin: 70px auto 0 auto;
+        max-width: 940px;
+        hr {
+            margin: 50px 0;
+            background-color: #f6f6f6;
+            border: none;
+            opacity: 1;
+        }
+    }
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        padding: 0;
+        img {
+            display: block;
+            margin: 5px 62px 0 0;
+        }
+    }
+    &__descr {
+        color: $font-color;
+        font-size: 18px;
+        font-weight: 700;
+        span {
+            display: block;
+            margin-top: 15px;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 20px;
+        }
+    }
+    &__progress {
+        display: block;
+        margin-top: 5px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,12 @@
+@mixin link_hover {
+    &:hover {
+        color:#fff;
+        text-decoration: none;
+    }
+}
+@mixin button_hover {
+    &:hover {
+        box-shadow: 2px 2px 4px #2e2e2e;
+        transform: translate(-2px, -2px);
+    }
+}

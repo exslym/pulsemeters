@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'icomoon_pulse';
+    src:  url('../fonts/icomoon_pulse.eot?nh2ahp');
+    src:  url('../fonts/icomoon_pulse.eot?nh2ahp#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon_pulse.ttf?nh2ahp') format('truetype'),
+      url('../fonts/icomoon_pulse.woff?nh2ahp') format('woff'),
+      url('../fonts/icomoon_pulse.svg?nh2ahp#icomoon_pulse') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon_pulse' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 24px;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook:before {
+    content: "\ea90";
+    color: #fff;
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+    color: #fff;
+  }
+  .icon-pinterest:before {
+    content: "\e900";
+    color: #fff;
+  }
+  

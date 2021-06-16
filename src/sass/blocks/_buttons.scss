@@ -1,0 +1,36 @@
+.button {
+    background-color: $main-color;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .4s all;
+    @include button_hover;
+    &_main {
+        margin-top: 67px;
+        width: 300px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    &_mini {
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+    &_submit {
+        width: 100%;
+        height: 55px;
+        font-size: 16px;
+        line-height: 55px;
+        &:hover {
+            box-shadow: 0px 0px 8px rgba(200, 200, 200, 0.9);
+            transform:translate(0px, -1px);
+        }
+    }
+}
