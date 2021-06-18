@@ -53,17 +53,21 @@
             box-shadow: 0px 0px 15px #fff;
             transform: scale(1.1, 1.1) rotate(360deg);
         }
+        
         .icon-facebook:before {
             content: "\ea90";
             color: #fff;
+            font-size: 22px;
         }
         .icon-instagram:before {
             content: "\ea92";
             color: #fff;
+            font-size: 22px;
         }
-        .icon-pinterest:before {
-            content: "\e900";
+        .icon-pinterest1:before {
+            content: "\ead1";
             color: #fff;
+            font-size: 24px;
         }
     }
     &__map-visible-small {
